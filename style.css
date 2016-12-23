@@ -93,12 +93,13 @@ img {
 }
 
 .background-image {
-	background-image: url("http://www.leisureconcepts.com.au/documents/brandlogos/Eleiko%201.jpg");
+	background-image: url("http://i101.photobucket.com/albums/m76/Em_Dot/powerlifting%20site/Eleiko%201%20resize_zpsja5nqidr.jpg");
 	width: 100%;
 	height: 800px;
   border-bottom: 5px solid gray;
   background-repeat: no-repeat;
   background-position: "#";
+  background-size: cover;
  
 }
 
