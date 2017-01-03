@@ -107,7 +107,12 @@ img {
 .background-stripes {
   background-image: url("http://i101.photobucket.com/albums/m76/Em_Dot/powerlifting%20site/grey_wash_wall_zpsdz8v2kp7.png");
   
- 
+}
+
+.background-about {
+  background-image: url("http://i101.photobucket.com/albums/m76/Em_Dot/logo_zpsmizzjvui.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
