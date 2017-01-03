@@ -112,7 +112,7 @@ img {
 
 
 .contact-info {
-  display: flex;
+  display: inline-block;
   margin: 0px 2% 50px 2%;
   width: 45%;
   text-align: center;
