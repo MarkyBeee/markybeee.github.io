@@ -101,7 +101,6 @@ img {
   background-repeat: no-repeat;
   background-position: "#";
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.03);
  
 }
 
@@ -111,10 +110,6 @@ img {
  
 }
 
-.background-color-clear-gray {
-  background-color: rgba(3, 0, 0, 0.8);
-
-}
 
 .contact-info {
   display: inline-block;
