@@ -6,6 +6,11 @@
 	color:white;
 }
 
+.titleShadow {
+	text-shadow:1px 10px 6px #000000;
+
+}
+
 .background-image {
 	background-image: url("http://i101.photobucket.com/albums/m76/Em_Dot/20150426_155945_zpslnis2x5s.jpg");
 	background-size: cover;
