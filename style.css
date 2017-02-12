@@ -1,5 +1,5 @@
 *{
-  font-family: "Abel";
+  font-family: 'Indie Flower', cursive;
 }
 
 .color-white {
@@ -12,9 +12,13 @@
 }
 
 .background-image {
-	background-image: url("http://i101.photobucket.com/albums/m76/Em_Dot/20150426_155945_zpslnis2x5s.jpg");
+	background-image: 
+			linear-gradient(
+                     rgba(0, 0, 0, .7), 
+                     rgba(0, 0, 0, .7)),
+			url("http://i101.photobucket.com/albums/m76/Em_Dot/20150426_155945_zpslnis2x5s.jpg");
 	background-size: cover;
-	
+	border-bottom: solid 2px;
 	width:100%;
 	height: 600px;
 	
@@ -34,6 +38,47 @@
 	padding-top: 150px;
 }
 
+.columnDiv {
+	display: flex;
+	max-width: auto;
+	min-width: 900px;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.columnOne {
+	margin-left: auto;
+	margin-right: auto;
+	flex: 1;
+	order: 1;
+	
+}
+
+.columnTwo {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	flex: 3;
+	order: 2;
+	
+}
+
+.columnTwoSocialMedia {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	flex: 3;
+	order: 2;
+	
+		
+}
+
+.columnThree {
+	flex: 1;
+	order: 3;
+
+}
+
 .portfolio-item {
 	display: inline-block;
 	width: 45%;
@@ -43,6 +88,13 @@
 .social-media {
 	float: left;
 	padding-left: 1%;
+}
+
+#inner {
+    display: flex;           
+    flex-direction: row;  
+    justify-content: center; 
+    align-items: center; 
 }
 
 .social-media-container {
@@ -87,6 +139,10 @@ img {
 	padding-bottom: 5px;
 	
 	
+}
+
+p {
+	font-size: 18px;
 }
 
 .imageShadow {
