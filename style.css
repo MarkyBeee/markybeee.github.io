@@ -14,8 +14,8 @@
 .background-image {
 	background-image: 
 			linear-gradient(
-                     rgba(0, 0, 0, .7), 
-                     rgba(0, 0, 0, .7)),
+                         rgba(0, 0, 0, .7), 
+                         rgba(0, 0, 0, .7)),
 			url("http://i101.photobucket.com/albums/m76/Em_Dot/20150426_155945_zpslnis2x5s.jpg");
 	background-size: cover;
 	border-bottom: solid 2px;
@@ -28,7 +28,7 @@
 
 .background-color {
 	background-color: rgba(0, 0, 255, 0.05);
-	box-shadow: 0px 6px 28px #1f1f1f;
+	box-shadow: 0px 0px 12px #000000;
 }
 
 .center-text {
